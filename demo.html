@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Gallery Demo</title>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style>
+		.main{
+			display: inline-block;
+			padding: 0;
+			width: 200px;
+    		height: 200px;
+		}
+		.main img{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+	<style type="text/css">
+    	.snake{
+    		position: relative;
+    		overflow: hidden;
+    	}
+    	.overlay{
+    		position: absolute;
+    		opacity: 0.9;
+
+    		text-align: center;
+    		padding-top: 60px;
+    		background-color: #ffffff;
+    	}
+    	.overlay .title{
+    		font-size: 15px;
+    		font-weight: bold;
+    		display: block;
+    		width: 100%;
+    	}
+    </style>
+</head>
+<body>
+<div class="container">
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #1</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/1.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #2</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/2.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #3</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/3.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #4</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/4.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #5</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/5.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #6</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/6.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #7</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/7.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #8</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/8.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #9</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/9.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #10</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/10.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #11</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/11.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #12</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/12.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #13</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/13.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #14</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/14.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #15</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/15.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #16</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/16.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #17</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/17.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #18</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/18.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #19</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/19.jpg"/>
+	</div>
+	<div class="main col-md-4 snake">
+			<div class="overlay"><span class="title">Image #20</span>
+			<span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus bibendum mollis.</span></div>
+			<img class="" src="images/1.jpg"/>
+	</div>
+</div>
+
+
+<script src="snake.min.js">
+	
+</script>
+<script>$(".snake").snakeify({speed: 200});</script>
+</body>
+</html>

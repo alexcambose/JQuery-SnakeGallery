@@ -1,3 +1,3 @@
 # JQuery-SnakeGallery
 
-https://alexandru-cambose.github.io/JQuery-SnakeGallery/
+https://alexcambose.github.io/JQuery-SnakeGallery/
